@@ -75,11 +75,9 @@ public class T5 {
                         numberCount++;
                         continue;
                     }
-
-                    // si la palabra no esta en la lista, agregar a la lista
-                    if ( !list.contains(theWord) ) {
-                        list.add(theWord);
-                    }
+                    
+                    list.add(theWord);
+                    
                 }
             }
 
